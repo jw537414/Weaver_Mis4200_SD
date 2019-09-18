@@ -15,14 +15,14 @@ namespace Mis4200_SD.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "| Ohio University Class of 2019 | Management Information System | Business Analytics |";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "";
 
             return View();
         }
